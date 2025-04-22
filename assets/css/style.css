@@ -5406,6 +5406,9 @@ ul.wp-block-latest-posts li:last-child {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.header-logo img{
+  width: 250px;
+}
 
 .header-links > ul {
   margin: 0;
