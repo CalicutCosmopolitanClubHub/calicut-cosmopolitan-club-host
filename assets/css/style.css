@@ -17759,3 +17759,6 @@ span.select2-selection.select2-selection--single:focus {
     text-align: right;
   }
 }
+.text-hover-custome-1:hover{
+  color: var(--success-color) !important;
+}
