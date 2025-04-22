@@ -78,7 +78,8 @@
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #4BAF47;
+  --theme-color: #19315c;
+  /* --theme-color: #4BAF47; */
   --title-color: #24231D;
   --body-color: #878680;
   --smoke-color: #F8F7F0;
@@ -13129,7 +13130,7 @@ span.select2-selection.select2-selection--single:focus {
   background: transparent;
 }
 .accordion-area.style2 .accordion-card .accordion-body {
-  background: rgba(100, 190, 97, 0.2);
+  background: rgb(0, 20, 56);
 }
 .accordion-area.style2 .accordion-card .accordion-body p {
   color: var(--white-color);
@@ -13143,7 +13144,8 @@ span.select2-selection.select2-selection--single:focus {
   color: var(--theme-color);
 }
 .accordion-area.style2 .accordion-card .accordion-button:not(.collapsed) {
-  background: var(--theme-color);
+  /* background: var(--theme-color); */
+  background: #fff;
   border-color: var(--theme-color);
 }
 .accordion-area.style2 .accordion-card .accordion-button:not(.collapsed) i {
