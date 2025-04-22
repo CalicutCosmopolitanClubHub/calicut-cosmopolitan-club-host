@@ -1,6 +1,6 @@
 const resultContainer = document.getElementById("result-div-previouse-leaders")
 const container = document.getElementById("timeline-container");
-
+const titleh3 = document.getElementById("heding-of-timeline")
 
 
 // data fetching function 
@@ -53,12 +53,13 @@ const timeLineCreator = (data) =>{
 //Loading function
 $(document).ready(async function () {
     const data = await dataFetching();
+    titleh3.innerHTML = "List of Previous Presidents";
     timeLineCreator(data.presidents)
 });
 
 const callPresident = async () =>{
     console.log("call presdient");
-    
+    titleh3.innerHTML = "List of Previous Presidents";
     const data = await dataFetching();
     timeLineCreator(data.presidents)
 }
@@ -66,7 +67,7 @@ const callPresident = async () =>{
 
 const callSecretaries = async () =>{
     console.log("call callSecretaries");
-
+    titleh3.innerHTML = "List of Previous Secretaries";
     const data = await dataFetching();
     timeLineCreator(data.secretaries)
 }
