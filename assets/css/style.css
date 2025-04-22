@@ -78,7 +78,8 @@
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #19315c;
+  /* --theme-color: #19315c; */
+  --theme-color: rgb(2, 8, 28);
   /* --theme-color: #4BAF47; */
   --title-color: #24231D;
   --body-color: #878680;
@@ -5894,7 +5895,7 @@ ul.wp-block-latest-posts li:last-child {
   font-size: 18px;
 }
 .header-layout7 .header-top {
-  background: #061e22;
+  background: #010717;
   padding: 7px 0;
 }
 .header-layout7 .header-links li > i {
@@ -5904,7 +5905,7 @@ ul.wp-block-latest-posts li:last-child {
   gap: 30px;
 }
 .header-layout7 .sticky-wrapper.sticky {
-  background: rgb(1, 36, 47);
+  background: var(--theme-color)
 }
 @media (max-width: 991px) {
   .header-layout7 .header-top {
