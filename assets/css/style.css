@@ -3022,7 +3022,7 @@ textarea.is-invalid {
 
 /*------------------- 3.8. Text Color -------------------*/
 .text-theme {
-  color: var(--theme-color) !important;
+  color: rgb(3, 22, 110) !important ;
 }
 
 .text-theme2 {
