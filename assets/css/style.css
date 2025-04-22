@@ -2741,7 +2741,7 @@ textarea.is-invalid {
 }
 .social-btn.style2 a:hover {
   background: transparent;
-  color: var(--theme-color);
+  color: var(--hover-a-color);
 }
 .social-btn.style3 {
   gap: 15px;
@@ -5454,7 +5454,7 @@ ul.wp-block-latest-posts li:last-child {
   align-items: center;
 }
 .header-links a:hover {
-  color: var(--theme-color);
+  color: var(--hover-a-color);
 }
 .header-links b,
 .header-links strong {
@@ -5973,7 +5973,7 @@ ul.wp-block-latest-posts li:last-child {
   color: var(--white-color);
 }
 .copyright-text a:hover {
-  color: var(--theme-color);
+  color: var(--hover-a-color);
 }
 
 .footer-layout1 {
@@ -6023,7 +6023,7 @@ ul.wp-block-latest-posts li:last-child {
   color: var(--white-color);
 }
 .footer-layout1 .footer-widget.widget_meta a:hover, .footer-layout1 .footer-widget.widget_pages a:hover, .footer-layout1 .footer-widget.widget_archive a:hover, .footer-layout1 .footer-widget.widget_recent_entries a:hover, .footer-layout1 .footer-widget.widget_categories a:hover, .footer-layout1 .footer-widget.widget_nav_menu a:hover {
-  color: var(--theme-color);
+  color: var(--hover-a-color);
 }
 .footer-layout1 .newsletter-form {
   margin-top: 27px;
