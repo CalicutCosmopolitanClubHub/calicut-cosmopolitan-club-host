@@ -105,6 +105,7 @@
   --section-space-mobile: 80px;
   --section-title-space: 65px;
   --ripple-ani-duration: 5s;
+  --hover-a-color:rgb(14, 179, 0);
 }
 
 /*------------------- 1.5. Typography -------------------*/
@@ -1108,8 +1109,8 @@ input {
   height: 58px;
   padding: 0 30px;
   border: 1px solid transparent;
-  color: var(--body-color);
-  background-color: var(--smoke-color);
+  color: #fff;
+  background-color: #000;
   font-size: 16px;
   font-weight: 300;
   width: 100%;
@@ -1127,7 +1128,7 @@ input:focus {
   outline: 0;
   box-shadow: none;
   border-color: var(--theme-color);
-  background-color: var(--smoke-color);
+  background-color: #000;
 }
 select::-moz-placeholder,
 .single-select::-moz-placeholder,
@@ -2021,6 +2022,8 @@ textarea.is-invalid {
   overflow: hidden;
   transition: all 0.35s;
   border-radius: 5px;
+  box-shadow: 5px 4px 9px 0px #000000;
+
   /* Medium Large devices */
 }
 .btn i {
@@ -5196,7 +5199,7 @@ ul.wp-block-latest-posts li:last-child {
   padding: 31px 0;
 }
 .main-menu > ul > li > a:hover {
-  color: var(--theme-color);
+  color: var(--hover-a-color);
 }
 .main-menu > ul > li > a[title]:before {
   content: "";
@@ -6360,8 +6363,8 @@ ul.wp-block-latest-posts li:last-child {
   position: relative;
   margin-left: 7px;
   font-weight: 400;
-  font-size: 16px;
-  color: var(--theme-color);
+  font-size: 20px;
+  color: rgb(31, 206, 75);
 }
 .breadcumb-menu li.active {
   color: var(--white-color);
@@ -6381,10 +6384,10 @@ ul.wp-block-latest-posts li:last-child {
   word-break: break-word;
   font-weight: 700;
   font-size: 18px;
-  color: var(--theme-color);
+  color: #fff;
 }
 .breadcumb-menu a:hover {
-  color: var(--theme-color);
+  color: rgb(47, 62, 131);
 }
 @media (max-width: 767px) {
   .breadcumb-menu {
@@ -17773,4 +17776,7 @@ span.select2-selection.select2-selection--single:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.box-shadow-btn{
+  box-shadow: 5px 4px 9px 0px #000000;
 }
