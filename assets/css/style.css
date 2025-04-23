@@ -17867,3 +17867,7 @@ span.select2-selection.select2-selection--single:focus {
             transform: translateX(-50%);
   }
 }
+.club-history{
+  background:#f7f7f7;
+  padding:57px 20px;
+}
