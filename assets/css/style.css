@@ -11206,7 +11206,7 @@ span.select2-selection.select2-selection--single:focus {
   color: var(--white-color);
 }
 .team-card.style7 .team-card-title a:hover {
-  color: var(--theme-color);
+  /* color: var(--theme-color); */
 }
 .team-card.style7 .team-card-desig {
   color: var(--white-color);
