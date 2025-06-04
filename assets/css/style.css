@@ -17871,3 +17871,10 @@ span.select2-selection.select2-selection--single:focus {
   background:#f7f7f7;
   padding:57px 20px;
 }
+.text-black-terms{
+  color: black !important;
+  font-size: larger;
+}
+.text-black-terms-p{
+  color: black !important;
+}
